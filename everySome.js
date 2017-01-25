@@ -1,11 +1,14 @@
 function checkUserValidity(suppliedUser) {
   return validUsers.some(function (validUser) {
     return (validUser.id === suppliedUser.id);
-  }         
+  })     
  }
 
 function checkUsers(validUsers, suppliedUsers) {
-  return suppliedUsers.every(function checkUserValidity(suppliedUser));
+  return suppliedUsers.every(function (suppliedUser)
+  {
+    
+  });
 }
 
 
